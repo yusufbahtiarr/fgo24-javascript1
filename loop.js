@@ -47,6 +47,7 @@ while(x < 5){
 }
 
 // Do While Loop
+// Fazztrack
 let e = 1
 do{    
     if(e==4){
@@ -56,3 +57,29 @@ do{
     }
     e++
 }while(e <= 5)
+
+// Segitiga Siku Terbalik
+let x = 0
+do{
+    let y = 5
+    let result = ""
+    do{
+        result += "* "
+        y--
+    }while(y > x)
+    console.log(result);
+    x++
+}while(x < 5)
+
+// Segitiga Siku
+let x = 0
+do{
+    let y = 0
+    let result = ""
+    do{
+        result += "* "
+        y++
+    }while(y < x+1)
+    console.log(result);
+    x++
+}while(x < 5)
