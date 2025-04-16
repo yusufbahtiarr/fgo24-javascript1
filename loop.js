@@ -8,6 +8,15 @@ for(let i=1; i <= 5; i++){
     }
 }
 
+// Segitiga Siku Terbalik
+for(let x=0; x < 5; x++){
+    let result = "" 
+    for(let y=0; y < 5 - x; y++){
+        result += "* "
+    }
+    console.log(result);
+}
+
 // Segitiga Siku 
 result = "" 
 for(let x=0; x < 5; x++){
