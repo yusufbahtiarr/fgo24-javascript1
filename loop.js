@@ -8,6 +8,13 @@ for(let i=1; i <= 5; i++){
     }
 }
 
+// Segitiga Siku 
+result = "" 
+for(let x=0; x < 5; x++){
+        result += "* "
+        console.log(result);     
+}
+
 // While Loop
 // Fazztrack
 let x = 1
