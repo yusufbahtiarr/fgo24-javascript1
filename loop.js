@@ -19,3 +19,15 @@ while(x < 5){
     console.log(result);
     x++
 }
+
+let x = 0
+while(x < 5){
+    let y = 0
+    let result = ""
+    while(y < x+1){
+        result += "* "
+        y++
+    }
+    console.log(result);
+    x++
+}
