@@ -32,15 +32,15 @@ console.log("\n");
 // Pattern 3 - Diagonal Line 1
 
 for (let x = 4; x >= 0; x--) {
-    let temp = ""
+    let result = ""
     for (let y = 0; y < 5 ; y++) {
         if (y != x) {
-            temp += "* "
+            result += "* "
         } else {
-            temp += "  "
+            result += "  "
         }
     }
-    console.log(temp)
+    console.log(result)
 }
 
 console.log("\n");
@@ -48,13 +48,13 @@ console.log("\n");
 //  Pattern 4 - Diagonal Line 2
 
 for (let x = 4; x >= 0;x--) {
-    let temp = ""
+    let result = ""
     for (let y = 0; y < 5; y++) {
         if (y != x) {
-            temp += "  "
+            result += "  "
         } else {
-            temp += "* "
+            result += "* "
         }
     }
-    console.log(temp)
+    console.log(result)
 }
