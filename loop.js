@@ -99,3 +99,20 @@ do{
     console.log(result);
     x++
 }while(x < 5)
+
+// Pola Kotak
+let result = ''
+for(let i=0; i<5; i++){
+    for(let j=0; j<5; j++){
+        if (i == 0 || i == 4) result += "* "
+        else {
+            if(j == 0 || j == 4){
+                result += "* "
+            } else {
+                result += "  "
+            }
+        }
+    }
+    result+= "\n"
+}
+console.log(result);
