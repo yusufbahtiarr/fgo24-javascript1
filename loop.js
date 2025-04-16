@@ -13,7 +13,7 @@ while(x < 5){
     let y = 5
     let result = ""
     while(y > x){
-        result += "*"
+        result += "* "
         y--
     }
     console.log(result);
